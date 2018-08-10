@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
-body {
-   background-image: url("hubble_background.png");
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
